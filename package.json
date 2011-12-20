@@ -1,0 +1,70 @@
+{
+	"name": "kitchensink.docpad",
+	"version": "0.5.0",
+	"description": "Kitchensink Skeleton for DocPad, based off Twitter's Bootstrap",
+	"homepage": "https://github.com/balupton/kitchensink.docpad",
+	"keywords": [
+		"twitter",
+		"bootstrap",
+		"website",
+		"docpad",
+		"theme"
+	],
+	"author": {
+		"name": "Benjamin Lupton",
+		"email": "b@lupton.cc",
+		"url": "http://balupton.com"
+	},
+	"maintainers": [
+		{
+			"name": "Benjamin Lupton",
+			"email": "b@lupton.cc",
+			"url": "http://balupton.com"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Benjamin Lupton",
+			"email": "b@lupton.cc",
+			"url": "http://balupton.com"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/balupton/kitchensink.docpad/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://creativecommons.org/licenses/MIT/"
+		}
+	],
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/balupton/kitchensink.docpad.git"
+	},
+	"dependencies": {
+		"coffee-script": "1.1.x",
+		"express": "2.5.x",
+		"docpad": "2.5.0"
+	},
+	"engines" : {
+		"node": ">=0.4.0"
+	},
+	"docpad": {
+		"enabledPlugins": {
+			"admin": true,
+			"rest": true,
+			"authenticate": false,
+			"autoupdate": false,
+			"buildr": false,
+			"html2jade": false
+		},
+		"plugins": {
+			"coffee": {
+				"coffeekup": {
+					"format": true
+				}
+			}
+		}
+	}
+}
